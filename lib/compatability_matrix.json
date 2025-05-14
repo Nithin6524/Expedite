@@ -1,0 +1,36 @@
+{
+    "compatibility_matrix": {
+      "frontend": {
+        "stacks": ["React", "Vue"],
+        "css_frameworks": ["Tailwind CSS", "Bootstrap"],
+        "frontend_compatibility": {
+          "React": {
+            "Tailwind CSS": true,
+            "Bootstrap": true
+          },
+          "Vue": {
+            "Tailwind CSS": true,
+            "Bootstrap": true
+          }
+        }
+      },
+      "backend": {
+        "stacks": ["Express.js", "Django"],
+        "databases": ["PostgreSQL", "MongoDB", "MySQL"],
+        "backend_compatibility": {
+          "Express.js": {
+            "PostgreSQL": true,
+            "MongoDB": true,
+            "MySQL": true
+          },
+          "Django": {
+            "PostgreSQL": true,
+            "MongoDB": false,  
+            "MySQL": true
+          }
+        }
+      }
+    }
+  }
+  
+  

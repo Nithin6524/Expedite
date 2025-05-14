@@ -1,0 +1,34 @@
+{
+  "name": "expedite",
+  "version": "1.0.0",
+  "description": "Expedite is a flexible, opinionated developer tool that automates full-stack web project setup — giving you full control over your tech stack without the headache of manual configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/index.js"
+  },
+  "bin": {
+    "expedite": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithin6524/Expedite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Nithin6524/Expedite/issues"
+  },
+  "homepage": "https://github.com/Nithin6524/Expedite#readme",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.1",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.6.1",
+    "ora": "^8.2.0"
+  }
+}
+

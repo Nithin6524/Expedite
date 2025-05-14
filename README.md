@@ -1,2 +1,2 @@
 # Expedite
-Expedite is a flexible developer tool that automates web project setup, giving developers full control over their tech stack with speed and ease.
+Expedite is a flexible, opinionated developer tool that automates full-stack web project setup — giving you full control over your tech stack without the headache of manual configuration.
